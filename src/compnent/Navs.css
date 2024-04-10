@@ -1,0 +1,66 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.App
+{
+/* display:flex; */
+background-color: black;
+color: white;
+justify-content: space-between;
+}
+li 
+{
+    /* display: flex;
+    flex-direction: row; */
+    list-style: none;
+
+}
+ul{
+list-style: none;
+/* display: flex; */
+}
+a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.disc
+{
+    background-color: rgb(237, 199, 129);
+    color:white;
+    height: 40px;
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header
+{
+    height: 90px;
+    display: flex;
+    /* flex-direction: row; */
+    align-self:center;
+}
+.log
+{
+    width: 100%;
+    padding-right: 900px;
+    height: 90px;
+}
+.nav a{
+    height: 90px;
+/* align-items: center; */
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nscbar
+{
+display: flex;
+flex-direction: row;
+}
